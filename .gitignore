@@ -1,0 +1,10 @@
+/vendor/
+/config.json
+/config.test.json
+/config.overflow.json
+/.idea/
+.DS_Store
+/luka.txt
+/luka.txt.progress
+/dick.txt
+/dick.txt.progress

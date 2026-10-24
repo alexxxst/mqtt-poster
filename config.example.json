@@ -1,0 +1,105 @@
+{
+  "mqtt": {
+    "host": "127.0.0.1",
+    "port": 1883,
+    "client_id": null,
+    "username": null,
+    "password": null,
+    "tls": false,
+    "tls_verify": true,
+    "topic": "meshcore/LED",
+    "qos": 0,
+    "interval_min_ms": 900,
+    "interval_max_ms": 2900,
+    "queue_max": 10
+  },
+  "identities": [
+    {
+      "public_key": "0A5EF9361B7CD7E4A9E08247D6D8CCA3A1D56B07833A1735E1C7CF160CF3B5A0",
+      "node_name": "MOS_VarshW_Top_SPB_OBS",
+      "snr": 5.5,
+      "rssi": -86,
+      "noise_floor": -90,
+      "battery_mv": 3880,
+      "uptime_secs": 12345
+    },
+    {
+      "public_key": "B85EF32FE855EFB86A6A391DB93D9E779803B4889345241F99AABD15370D0A4E",
+      "node_name": "DBR-SNT-NW",
+      "snr": 4.2,
+      "rssi": -95,
+      "noise_floor": -107,
+      "battery_mv": 4010,
+      "uptime_secs": 31842
+    }
+  ],
+  "device": {
+    "model": "Heltec V3",
+    "firmware_version": "v1.16.0",
+    "client_version": "mqtt-poster",
+    "radio": "868.856,62.5,7,7"
+  },
+  "status": {
+    "enabled": true,
+    "retain": true,
+    "interval_ms": 300000,
+    "errors": 0,
+    "queue_len": 1,
+    "tx_air_secs": 0,
+    "rx_air_secs": 0,
+    "recv_errors": 0
+  },
+  "packet": {
+    "channel_secret": "8b3387e9c5cdea6ac9e5edbaa115cd72",
+    "message_file": "luka.txt",
+    "progress_file": "luka.txt.progress",
+    "loop": true,
+    "retain": true,
+    "direction": "rx",
+    "snr_min": -3.0,
+    "snr_max": 8.5,
+    "snr_step": 0.6,
+    "rssi_min": -104,
+    "rssi_max": -74,
+    "rssi_step": 3,
+    "score": 1000,
+    "duration": 120,
+    "observer_delay_min_ms": 150,
+    "observer_delay_max_ms": 450,
+    "path": {
+      "neighbors": [
+        "A000",
+        "A111",
+        "ABCD",
+        "0000",
+        "5555",
+        "BBBB",
+        "DEAD",
+        "8E8E",
+        "77AA",
+        "60D3",
+        "AF5B",
+        "C95E",
+        "356E",
+        "B00B",
+        "5054",
+        "5F5D",
+        "B85E",
+        "3D38"
+      ],
+      "min_hops": 3,
+      "max_hops": 7,
+      "direct_probability": 0.1
+    }
+  },
+  "advert": {
+    "coordinate_file": "dick.txt",
+    "progress_file": "dick.txt.progress",
+    "key_seed": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "node_type": 2,
+    "loop": true,
+    "publish_status": true,
+    "direct_probability": 0.0
+  },
+  "template_file": "chat.tpl"
+}

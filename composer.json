@@ -1,0 +1,10 @@
+{
+  "name": "alexxxst/mqtt-poster",
+  "description": "Simple MQTT test publisher",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "ext-sodium": "*",
+    "php-mqtt/client": "^2.0"
+  }
+}
